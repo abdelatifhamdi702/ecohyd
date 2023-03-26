@@ -29,7 +29,7 @@ const Index2 = () => {
       <Banner />
       <About featureStyle="style2" />
 
-      <Promo bgStyle="style2" />
+      {/*<Promo bgStyle="style2" />
 
       <RecommendTour
         title={t('destinationtitle')}
@@ -47,7 +47,7 @@ const Index2 = () => {
           </div>
         </div>
         <FeatureTour viewButton={true} />
-      </div>
+      </div>*/}
 
       <Service />
     </>

@@ -1,1 +1,19 @@
-{"aboutUs":"Qui sommes-nous","address":"Adresse","concernedPeople":"Les personnes concernes par les séjours","contactNow":"Contacter maintenant","contactUs":"Nous contacter","definition":"Vacances adaptées pour adultes en situation de handicap.","destinations":"Destinations","financing":"Ou chercher les financements pour mon voyage","followUs":"Suivez-nous sur","home":"Accueil","login":"Se connecter","myProfile":"Mon profile","phone":"Tel","tour":"Séjours"}
+{
+  "aboutUs": "Qui sommes-nous",
+  "address": "Adresse",
+  "algeria": "Algérie",
+  "mailbox": "B.P",
+  "maintenance-of-industrial-sites": "Maintenance Des Sites Industriels",
+  "shelving": "Rayonnages",
+  "contactNow": "Contacter maintenant",
+  "contactUs": "Nous contacter",
+  "definition": "Fournitures, Poses & Maintenance de Rayonnages Lourds & Semi Lourds.",
+  "quotation-request": "Demande de devis",
+  "fire-network": "Réseau Incendie",
+  "followUs": "Suivez-nous sur",
+  "home": "Accueil",
+  "login": "Se connecter",
+  "myProfile": "Mon profile",
+  "phone": "Tel",
+  "services": "Services"
+}

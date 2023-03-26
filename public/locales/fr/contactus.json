@@ -1,1 +1,22 @@
-{"btn":"Envoyer","getintouch":"Entrer en contact","input1":"Nom et prénom","input2":"Email","input3":"Téléphone","input4":"Sujet","input5":"Ecrire un message..."}
+{
+  "btn": "Envoyer",
+  "getintouch": "Formulaire de demande de devis",
+  "input1": "Nom et prénom",
+  "input2": "Email",
+  "input3": "Téléphone",
+  "input4": "Sujet",
+  "input5": "Ecrire un message...",
+  "qinput1": "Nom / Raison Social",
+  "qinput2": "Activité de l'Entreprise",
+  "qinput3": "Numéro Téléphone",
+  "qinput4": "Email",
+  "qinput5": "Adresse",
+  "qinput6": "Type de Rayonnage",
+  "qinput7": "Surface",
+  "qinput8": "Accessoires de Protection",
+  "qinput9": "Hauteur",
+  "qinput10": "Chariot de Manutention Utilisé",
+  "qinput11": "Délai de Réalisation Prévues",
+  "yes": "Oui",
+  "no": "Non"
+}

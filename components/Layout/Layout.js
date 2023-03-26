@@ -18,14 +18,14 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Tapis volant</title>
+        <title>EcoHyd</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <meta name="description" content="Tapis volant" />
-        <meta name="og:title" property="og:title" content="Tapis volant"></meta>
-        <meta name="twitter:card" content="Tapis volant"></meta>
+        <meta name="description" content="EcoHyd" />
+        <meta name="og:title" property="og:title" content="EcoHyd"></meta>
+        <meta name="twitter:card" content="EcoHyd"></meta>
         <link rel="canonical" href="https://detour.hibootstrap.com"></link>
       </Head>
 

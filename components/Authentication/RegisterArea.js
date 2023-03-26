@@ -149,7 +149,7 @@ const RegisterArea = () => {
                           {t('input2')}
                         </label>
                         <input id="pwd" name="pwd" type="password" required />
-                        <b id="pwdError" style={{ color: '#cc3f32' }}></b>
+                        <b id="pwdError" style={{ color: '#f49f1c' }}></b>
                       </div>
                     </div>
                     <div className="col-lg-12">
@@ -163,7 +163,7 @@ const RegisterArea = () => {
                           type="text"
                           required
                         />
-                        <b id="usernameError" style={{ color: '#cc3f32' }}></b>
+                        <b id="usernameError" style={{ color: '#f49f1c' }}></b>
                       </div>
                     </div>
                     <div className="col-lg-12">
@@ -172,7 +172,7 @@ const RegisterArea = () => {
                           {t('input4') + ' (+33143156455)'}
                         </label>
                         <input id="phone" name="phone" type="text" required />
-                        <b id="phoneError" style={{ color: '#cc3f32' }}></b>
+                        <b id="phoneError" style={{ color: '#f49f1c' }}></b>
                       </div>
                     </div>
 

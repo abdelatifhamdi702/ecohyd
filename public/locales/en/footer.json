@@ -1,1 +1,7 @@
-{"information":"Information","payMethodes":"Methods of payment accepted","paySec":"Secure payment","rights":"All rights reserved","services":"Services"}
+{
+  "information": "Information",
+  "payMethodes": "Methods of payment accepted",
+  "paySec": "Social Media",
+  "rights": "All rights reserved",
+  "services": "Services"
+}

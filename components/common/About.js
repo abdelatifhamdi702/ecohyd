@@ -52,18 +52,20 @@ const About = ({ bgColor, shape, featureStyle, ptb100 }) => {
                 <br />
                 <h2 style={{ textAlign: 'center' }}>{t('title')} ?</h2>
                 <p style={{ margin: '40px' }}>
-                  <b style={{ fontSize: '16px', color: '#cc3f32' }}>
+                  {t('aboutText')}
+                  {/*<b style={{ fontSize: '16px', color: '#f49f1c' }}>
                     {t('text1')}
                   </b>
                   <br /> {t('text2')}
-                  <b style={{ color: '#cc3f32' }}> « {t('text3')} ».</b>
+                  <b style={{ color: '#f49f1c' }}> « {t('text3')} ».</b>
                   <br />
                   {t('text4')}
-                  <b style={{ color: '#cc3f32' }}> TAPIS VOLANT</b> {t('text5')}
+                  <b style={{ color: '#f49f1c' }}> EcoHyd</b> {t('text5')}
+                  */}
                 </p>
               </div>
               <br />
-              <div className="col-md-12">
+              {/*<div className="col-md-12">
                 <div className="section-title style4 text-center">
                   <span>{t('allour')}</span>
                   <h2>{t('objectives')}</h2>
@@ -96,7 +98,7 @@ const About = ({ bgColor, shape, featureStyle, ptb100 }) => {
                     <p>{t('o5')}</p>
                   </div>
                 </div>
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>

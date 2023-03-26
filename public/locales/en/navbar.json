@@ -1,1 +1,19 @@
-{"aboutUs":"About us","address":"Address","concernedPeople":"The people concerned by the stays","contactNow":"Contact now","contactUs":"Contact us","definition":"Holidays adapted for adults with disabilities.","destinations":"Destinations","financing":"Where to find funding for my trip","followUs":"Follow us on","home":"Home","login":"Login","myProfile":"My profile","phone":"Phone","tour":"Stays"}
+{
+  "aboutUs": "About us",
+  "address": "Address",
+  "algeria": "Algeria",
+  "mailbox": "Mailbox",
+  "maintenance-of-industrial-sites": "Maintenance of Industrial Sites",
+  "shelving": "Shelving",
+  "contactNow": "Contact now",
+  "contactUs": "Contact us",
+  "definition": "Supplies, Installation & Maintenance of Heavy & Semi-Heavy Shelving",
+  "quotation-request": "Quotation Request",
+  "fire-network": "Fire Network",
+  "followUs": "Follow us on",
+  "home": "Home",
+  "login": "Login",
+  "myProfile": "My profile",
+  "phone": "Phone",
+  "services": "Services"
+}

@@ -37,7 +37,7 @@ const ContactUs = () => {
                 <div className="contact-info">
                   <h5>{t('address')}</h5>
                   <p className="mb-0">
-                    03 rue Bisson 75020, Paris <br /> FRANCE
+                    rue el makam, Laghouat <br /> {t('algeria')}
                   </p>
                 </div>
               </div>
@@ -51,13 +51,13 @@ const ContactUs = () => {
                   <h5>Contact</h5>
                   <p className="mb-0">
                     {t('phone')}:{' '}
-                    <a href="tel:+33143156455">+331.43.15.64.55</a>
+                    <a href="tel:+213550962370">+213.550.962.370</a>
                   </p>
 
                   <p className="mb-0">
                     Email:{' '}
-                    <a href="mailto:info@tapis-volant.fr">
-                      info@tapis-volant.fr
+                    <a href="mailto:eurl.ecohyd@gmail.com">
+                      eurl.ecohyd@gmail.com
                     </a>
                   </p>
                 </div>
@@ -73,26 +73,11 @@ const ContactUs = () => {
                   <h5 style={{ marginBottom: '25px' }}>{t('followUs')}</h5>
                   <ul className="social-profile v1">
                     <li>
-                      <a target="_blank" href="https://facebook.com">
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com/profile.php?id=100090966223820&mibextid=LQQJ4d"
+                      >
                         <i className="ri-facebook-fill"></i>{' '}
-                      </a>
-                    </li>
-                    <li>
-                      <a target="_blank" href="https://linkedin.com">
-                        {' '}
-                        <i className="ri-linkedin-fill"></i>{' '}
-                      </a>
-                    </li>
-                    <li>
-                      <a target="_blank" href="https://twitter.com">
-                        {' '}
-                        <i className="ri-twitter-fill"></i>{' '}
-                      </a>
-                    </li>
-                    <li>
-                      <a target="_blank" href="https://instagram.com">
-                        {' '}
-                        <i className="ri-instagram-line"></i>{' '}
                       </a>
                     </li>
                   </ul>

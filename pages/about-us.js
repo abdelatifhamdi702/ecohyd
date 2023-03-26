@@ -39,7 +39,7 @@ const AboutUs = () => {
         shape={true}
       />
 
-      <Promo bgStyle="style2" />
+      {/*<Promo bgStyle="style2" />*/}
 
       <div className="pb-100">
         <Service />

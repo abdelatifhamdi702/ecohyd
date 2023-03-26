@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="footer-widget">
-                  <h4 className="footer-widget-title">Tapis Volant</h4>
+                  <h4 className="footer-widget-title">EURL EcoHyd</h4>
                   <ul className="footer-menu">
                     <li>
                       <Link href="/about-us">
@@ -35,13 +35,18 @@ const Footer = () => {
                   </h4>
                   <ul className="footer-menu">
                     <li>
-                      <Link href="/tours">
-                        <a href="tours">{t('navbar:tour')}</a>
+                      <Link href="/shelving">
+                        <a>{t('navbar:shelving')}</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/destination">
-                        <a>{t('navbar:destination')}</a>
+                      <Link href="/fire-network">
+                        <a>{t('navbar:fire-network')}</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/maintenance-of-industrial-sites">
+                        <a>{t('navbar:maintenance-of-industrial-sites')}</a>
                       </Link>
                     </li>
                   </ul>
@@ -53,69 +58,37 @@ const Footer = () => {
                     {t('footer:information')}
                   </h4>
                   <ul className="footer-menu">
-                    <Link href="/concerned-people">
+                    <Link href="/quotation-request">
                       <li>
-                        <a>{t('navbar:concernedPeople')}</a>
+                        <a>{t('navbar:quotation-request')}</a>
                       </li>
                     </Link>
-                    <li>
-                      <Link href="/financing">
-                        <a>{t('navbar:financing')}</a>
-                      </Link>
-                    </li>
                   </ul>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="footer-widget">
                   <h4 className="footer-widget-title">{t('footer:paySec')}</h4>
-                  <p>{t('footer:payMethodes')} :</p>
-                  <ul className="payment-option">
-                    <li>
-                      <img src="/images/paypal.png" alt="Image" />
-                    </li>
-                    <li>
-                      <img src="/images/mastercard.png" alt="Image" />
-                    </li>
-                    <li>
-                      <img src="/images/visa.png" alt="Image" />
-                    </li>
-                  </ul>
+                  <p>
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/profile.php?id=100090966223820&mibextid=LQQJ4d"
+                    >
+                      <i className="ri-facebook-fill"></i> Facebook
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div className="footer-bottom">
             <div className="row align-items-center">
-              <div className="col-lg-6 col-md-4">
-                <ul className="social-profile v1">
-                  <li>
-                    <a target="_blank" href="https://facebook.com">
-                      <i className="ri-facebook-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://linkedin.com">
-                      <i className="ri-linkedin-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://twitter.com">
-                      <i className="ri-twitter-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://instagram.com">
-                      <i className="ri-instagram-line"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <div className="col-lg-6 col-md-4"></div>
               <div className="col-lg-6 col-md-8">
                 <div className="copyright-text">
                   <p>
                     Copyright <span className="las la-copyright"></span> 2023
-                    Tapis Volant. {t('footer:rights')}
+                    EURL EcoHyd. {t('footer:rights')}
                   </p>
                 </div>
               </div>

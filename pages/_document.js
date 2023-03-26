@@ -10,7 +10,11 @@ class MyDocument extends Document {
     return (
       <Html lang="zxx">
         <Head>
-          <link rel="icon" type="image/png" href="/images/logo.jpg"></link>
+          <link
+            rel="icon"
+            type="image/png"
+            href="/images/ECOHYDSHAPE.png"
+          ></link>
         </Head>
         <body>
           <Main />

@@ -129,7 +129,7 @@ const Navbar = () => {
 
                 <div className="col-lg-5">
                   <div className="header-top-right">
-                    {isLogin ? (
+                    {/*isLogin ? (
                       <Link href="/user/profile">
                         <a className="link style3">
                           <i className="ri-user-line"></i>
@@ -143,7 +143,7 @@ const Navbar = () => {
                           {t('login')}
                         </a>
                       </Link>
-                    )}
+                    )*/}
                     <div
                       onClick={() => toggleCategory()}
                       className={open ? 'nice-select open' : 'nice-select'}
@@ -209,7 +209,7 @@ const Navbar = () => {
                       <span className="ri-phone-line"></span>
                       <p>
                         Contact Now <br />
-                        <a href="tel:+15143214567">+1 (514) 321-4567</a>
+                        <a href="tel:+213550962370">+213.550.962.370</a>
                       </p>
                     </div>
                   </div>
@@ -232,7 +232,10 @@ const Navbar = () => {
                   <div className="logo v2">
                     <Link href="/">
                       <a>
-                        <img src="/images/logo.jpg" alt="Image" />
+                        <img
+                          src="/images/ECOHYDTEXTSHAPERight.png"
+                          alt="Image"
+                        />
                       </a>
                     </Link>
                   </div>
@@ -280,8 +283,8 @@ const Navbar = () => {
                         </li>
 
                         <li className="has-children">
-                          <Link href="/tours" activeClassName="active">
-                            <a>{t('tour')}</a>
+                          <Link href="/services" activeClassName="active">
+                            <a>{t('services')}</a>
                           </Link>
 
                           <span className="menu-expand">
@@ -289,28 +292,31 @@ const Navbar = () => {
                           </span>
                           <ul className="sub-menu">
                             <li>
-                              <Link href="/tours" activeClassName="active">
-                                <a>{t('tour')}</a>
+                              <Link href="/shelving" activeClassName="active">
+                                <a>{t('shelving')}</a>
                               </Link>
                             </li>
                             <li>
                               <Link
-                                href="/concerned-people"
+                                href="/fire-network"
                                 activeClassName="active"
                               >
-                                <a>{t('concernedPeople')}</a>
+                                <a>{t('fire-network')}</a>
                               </Link>
                             </li>
                             <li>
-                              <Link href="/financing" activeClassName="active">
-                                <a>{t('financing')}</a>
+                              <Link
+                                href="/maintenance-of-industrial-sites"
+                                activeClassName="active"
+                              >
+                                <a>{t('maintenance-of-industrial-sites')}</a>
                               </Link>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <Link href="/destination" locale={locale}>
-                            <a>{t('destinations')}</a>
+                          <Link href="/quotation-request" locale={locale}>
+                            <a>{t('quotation-request')}</a>
                           </Link>
                           {/*
                           <span className="menu-expand">
@@ -659,7 +665,7 @@ const Navbar = () => {
                       <p>
                         {t('contactNow')}
                         <br />
-                        <a href="tel:+33143156455">+331.43.15.64.55</a>
+                        <a href="tel:+213550962370">+213.550.962.370</a>
                       </p>
                     </div>
                     <div className="sidebar-menu" onClick={toggleContact}>
@@ -693,11 +699,13 @@ const Navbar = () => {
                 <i className="ri-map-pin-fill"></i>
               </div>
               <div className="contact-info">
-                <h5>Paris, France</h5>
-                <p>{t('address')}: 03 rue Bisson 75020, Paris</p>
+                <h5>Laghouat, {t('algeria')}</h5>
+                <p>{t('address')}: El makam, Laghouat</p>
+                <p>Email: eurl.ecohyd@gmail.com</p>
                 <p>
-                  {t('phone')}: <a href="tel:+33143156455">+331.43.15.64.55</a>
+                  {t('phone')}: <a href="tel:+213550962370">+213.550.962.370</a>
                 </p>
+                <p>{t('mailbox')}: 550 Laghouat</p>
               </div>
 
               <div className="contact-info">
@@ -705,23 +713,11 @@ const Navbar = () => {
 
                 <ul className="social-profile v1">
                   <li>
-                    <a target="_blank" href="https://facebook.com">
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/profile.php?id=100090966223820&mibextid=LQQJ4d"
+                    >
                       <i className="ri-facebook-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://linkedin.com">
-                      <i className="ri-linkedin-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://twitter.com">
-                      <i className="ri-twitter-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://instagram.com">
-                      <i className="ri-instagram-line"></i>
                     </a>
                   </li>
                 </ul>

@@ -1,1 +1,22 @@
-{"btn":"Send","getintouch":"Enter into a contract","input1":"Full name","input2":"E-mail","input3":"Phone","input4":"Subject","input5":"To write a message..."}
+{
+  "btn": "Send",
+  "getintouch": "Quote request form",
+  "input1": "Full name",
+  "input2": "E-mail",
+  "input3": "Phone",
+  "input4": "Subject",
+  "input5": "To write a message...",
+  "qinput1": "Name / Company Name",
+  "qinput2": "Company's activity",
+  "qinput3": "Phone Number",
+  "qinput4": "Email",
+  "qinput5": "Address",
+  "qinput6": "Shelving Type",
+  "qinput7": "Surface",
+  "qinput8": "Protective Accessories",
+  "qinput9": "Height",
+  "qinput10": "Material Handling Trolley Used",
+  "qinput11": "Expected Completion Time",
+  "yes": "Yes",
+  "no": "No"
+}

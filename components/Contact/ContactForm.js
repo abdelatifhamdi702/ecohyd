@@ -61,7 +61,7 @@ const ContactForm = () => {
 
           {/*<form className="form-wrap" onSubmit={handleSubmit}>*/}
           <form
-            action="https://formsubmit.co/info@tapis-volant.fr"
+            action="https://formsubmit.co/eurl.ecohyd@gmail.com"
             method="POST"
             role="form"
             className="form-wrap"

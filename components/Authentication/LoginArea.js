@@ -70,7 +70,7 @@ const LoginArea = () => {
                         </label>
                         <input id="pwd" name="pwd" type="password" />
                       </div>
-                      <b id="loginError" style={{ color: '#cc3f32' }}></b>
+                      <b id="loginError" style={{ color: '#f49f1c' }}></b>
                     </div>
                     <div className="col-lg-6 col-md-6 col-6">
                       <div className="form_group mb-20">

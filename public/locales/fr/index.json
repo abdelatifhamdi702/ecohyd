@@ -1,1 +1,16 @@
-{"bannerbtn":"Rechercher","bannerinput":"Mots clés","bannertitle1":"Voyager, Découvrir.","bannertitle2":"Créer des souvenirs, pas des rêves.","destinationsubtitle":"DESTINATIONS RECOMMANDEES","destinationtitle":"TOUTES NOS","toursubtitle":"SEJOURS DISPONIBLES","tourtitle":"TOUS NOS"}
+{
+  "bannerbtn": "Rechercher",
+  "bannerinput": "Mots clés",
+  "bannertitle1": "EURL ECOHYD",
+  "bannertitle2": "Distributeur Officiel Rayonnage",
+  "destinationsubtitle": "DESTINATIONS RECOMMANDEES",
+  "destinationtitle": "TOUTES NOS",
+  "toursubtitle": "SEJOURS DISPONIBLES",
+  "tourtitle": "TOUS NOS",
+  "rayonnageLéger": "Rayonnage Léger",
+  "RayonnageMi-Lourd": "Rayonnage Mi-Lourd",
+  "RayonnageLourd": "Rayonnage Lourd",
+  "RayonnageMi-LourdàdeuxNiveaux": "Rayonnage Mi-Lourd à deux Niveaux",
+  "rayonnageparaccumulationavecnavette": "Rayonnage Par Accumulation Avec Navette",
+  "rayonnageparaccumulationclassique": "Rayonnage Par Accumulation Classique"
+}

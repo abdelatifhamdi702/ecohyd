@@ -406,7 +406,7 @@
        Breadcrumb CSS 
 -----------------------------------*/
 .br-bg-1 {
-  background-image: url(/images/breadcrumb/breadcrumb-1.jpg);
+  background-image: url(/images/Images/cover.png);
 }
 
 .br-bg-2 {
@@ -414,11 +414,11 @@
 }
 
 .br-bg-3 {
-  background-image: url(/images/breadcrumb/breadcrumb-3.jpg);
+  background-image: url(/images/service/firenetwork.png);
 }
 
 .br-bg-4 {
-  background-image: url(/images/breadcrumb/breadcrumb-4.jpg);
+  background-image: url(/images/banner2.jpg);
 }
 
 .br-bg-5 {
@@ -426,7 +426,7 @@
 }
 
 .br-bg-6 {
-  background-image: url(/images/breadcrumb/breadcrumb-6.jpg);
+  background-image: url(/images/breadcrumb/maintenance.jpg);
 }
 
 .breadcrumb-wrap {
@@ -2325,6 +2325,8 @@
 }
 
 .service-item.style2 .service-img img {
+  height: 300px;
+  width: 400px;
   border-radius: 10px;
 }
 
@@ -4767,7 +4769,7 @@ form.checkout textarea {
 }
 
 .user-tablist .active .nav-link {
-  background: #cc3f32;
+  background: #f49f1c;
   color: #fff;
 }
 
