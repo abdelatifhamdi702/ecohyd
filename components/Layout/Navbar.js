@@ -258,7 +258,9 @@ const Navbar = () => {
                     <div id="menu">
                       <ul className="main-menu">
                         <li>
-                          <a href="/">{t('home')}</a>
+                          <a href="/" onClick={toggleMobileMenu}>
+                            {t('home')}
+                          </a>
                           {/*
                           <span className="menu-expand">
                             <i className="las la-angle-down"></i>
@@ -283,8 +285,8 @@ const Navbar = () => {
                         </li>
 
                         <li className="has-children">
-                          <Link href="/services" activeClassName="active">
-                            <a>{t('services')}</a>
+                          <Link href="/shelving" activeClassName="active">
+                            <a onClick={toggleMobileMenu}>{t('services')}</a>
                           </Link>
 
                           <span className="menu-expand">
@@ -293,7 +295,9 @@ const Navbar = () => {
                           <ul className="sub-menu">
                             <li>
                               <Link href="/shelving" activeClassName="active">
-                                <a>{t('shelving')}</a>
+                                <a onClick={toggleMobileMenu}>
+                                  {t('shelving')}
+                                </a>
                               </Link>
                             </li>
                             <li>
@@ -301,7 +305,9 @@ const Navbar = () => {
                                 href="/fire-network"
                                 activeClassName="active"
                               >
-                                <a>{t('fire-network')}</a>
+                                <a onClick={toggleMobileMenu}>
+                                  {t('fire-network')}
+                                </a>
                               </Link>
                             </li>
                             <li>
@@ -309,14 +315,18 @@ const Navbar = () => {
                                 href="/maintenance-of-industrial-sites"
                                 activeClassName="active"
                               >
-                                <a>{t('maintenance-of-industrial-sites')}</a>
+                                <a onClick={toggleMobileMenu}>
+                                  {t('maintenance-of-industrial-sites')}
+                                </a>
                               </Link>
                             </li>
                           </ul>
                         </li>
                         <li>
                           <Link href="/quotation-request" locale={locale}>
-                            <a>{t('quotation-request')}</a>
+                            <a onClick={toggleMobileMenu}>
+                              {t('quotation-request')}
+                            </a>
                           </Link>
                           {/*
                           <span className="menu-expand">
@@ -368,7 +378,7 @@ const Navbar = () => {
 
                         <li>
                           <Link href="/about-us" locale={locale}>
-                            <a>{t('aboutUs')}</a>
+                            <a onClick={toggleMobileMenu}>{t('aboutUs')}</a>
                           </Link>
                           {/*
                           <span className="menu-expand">
@@ -477,7 +487,7 @@ const Navbar = () => {
 
                         <li>
                           <Link href="/contact-us" locale={locale}>
-                            <a>{t('contactUs')}</a>
+                            <a onClick={toggleMobileMenu}>{t('contactUs')}</a>
                           </Link>
                           {/*
                           <span className="menu-expand">
