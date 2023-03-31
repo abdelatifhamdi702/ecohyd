@@ -65,8 +65,6 @@ const Footer = () => {
                     </Link>
                   </ul>
                 </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="footer-widget">
                   <h4 className="footer-widget-title">{t('footer:paySec')}</h4>
                   <p>
@@ -77,6 +75,22 @@ const Footer = () => {
                       <i className="ri-facebook-fill"></i> Facebook
                     </a>
                   </p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-6">
+                <div className="footer-widget">
+                  <h4 className="footer-widget-title">{t('footer:dist')} :</h4>
+                  <ul className="payment-option">
+                    <li>
+                      <img src="/images/rsz_metal_structure.png" alt="Image" />
+                    </li>
+                    <li>
+                      <img
+                        src="/images/logo-stym-final-e1520782163493.png"
+                        alt="Image"
+                      />
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

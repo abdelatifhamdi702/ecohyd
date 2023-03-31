@@ -37,7 +37,8 @@ const ContactUs = () => {
                 <div className="contact-info">
                   <h5>{t('address')}</h5>
                   <p className="mb-0">
-                    rue el makam, Laghouat <br /> {t('algeria')}
+                    rue el makam, Laghouat <br /> {t('algeria')} <br />
+                    <br />
                   </p>
                 </div>
               </div>
@@ -50,8 +51,11 @@ const ContactUs = () => {
                 <div className="contact-info">
                   <h5>Contact</h5>
                   <p className="mb-0">
-                    {t('phone')}:{' '}
+                    {t('phone')} 1 :{' '}
                     <a href="tel:+213550962370">+213.550.962.370</a>
+                    <br />
+                    {t('phone')} 2 :{' '}
+                    <a href="tel:+213657890944">+213.657.890.944</a>
                   </p>
 
                   <p className="mb-0">
@@ -81,6 +85,7 @@ const ContactUs = () => {
                       </a>
                     </li>
                   </ul>
+                  <br />
                 </div>
               </div>
             </div>
@@ -92,12 +97,13 @@ const ContactUs = () => {
             <div className="col-lg-12">
               <div className="comp_map style2">
                 <iframe
-                  className="gmap_iframe"
-                  frameBorder="0"
+                  width="600"
+                  height="400"
+                  src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=33.799666%2C%202.860816+(EURL%20ECOHYD)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed"
+                  frameborder="0"
                   scrolling="no"
-                  marginHeight="0"
-                  marginWidth="0"
-                  src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=03 rue Bisson 75020, Paris&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  marginheight="0"
+                  marginwidth="0"
                 ></iframe>
               </div>
             </div>

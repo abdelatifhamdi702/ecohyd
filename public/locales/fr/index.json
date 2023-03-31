@@ -7,10 +7,9 @@
   "destinationtitle": "TOUTES NOS",
   "toursubtitle": "SEJOURS DISPONIBLES",
   "tourtitle": "TOUS NOS",
-  "rayonnageLéger": "Rayonnage Léger",
-  "RayonnageMi-Lourd": "Rayonnage Mi-Lourd",
-  "RayonnageLourd": "Rayonnage Lourd",
-  "RayonnageMi-LourdàdeuxNiveaux": "Rayonnage Mi-Lourd à deux Niveaux",
-  "rayonnageparaccumulationavecnavette": "Rayonnage Par Accumulation Avec Navette",
-  "rayonnageparaccumulationclassique": "Rayonnage Par Accumulation Classique"
-}
+  "rayonnageLéger": "Rayonnage Léger (Produit STYM rayonnage)",
+  "RayonnageMi-Lourd": "Rayonnage Mi-Lourd (Produit STYM rayonnage)",
+  "RayonnageLourd": "Rayonnage Lourd (Produit Metal Structure)",
+  "RayonnageMi-LourdàdeuxNiveaux": "Rayonnage Mi-Lourd à deux Niveaux (Produit STYM rayonnage)",
+  "rayonnageparaccumulationavecnavette": "Rayonnage Par Accumulation Avec Navette (Produit Metal Structure)",
+  "rayonnageparaccumulationclassique": "Rayonnage Par Accumulation Classique (Produit Metal Structure)"}

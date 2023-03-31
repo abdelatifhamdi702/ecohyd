@@ -713,7 +713,11 @@ const Navbar = () => {
                 <p>{t('address')}: El makam, Laghouat</p>
                 <p>Email: eurl.ecohyd@gmail.com</p>
                 <p>
-                  {t('phone')}: <a href="tel:+213550962370">+213.550.962.370</a>
+                  {t('phone')} 1 :{' '}
+                  <a href="tel:+213550962370">+213.550.962.370</a>
+                  <br />
+                  {t('phone')} 2 :{' '}
+                  <a href="tel:+213657890944">+213.657.890.944</a>
                 </p>
                 <p>{t('mailbox')}: 550 Laghouat</p>
               </div>
@@ -736,12 +740,13 @@ const Navbar = () => {
 
             <div className="comp_map">
               <iframe
-                className="gmap_iframe"
-                frameBorder="0"
+                width="600"
+                height="400"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=33.799666%2C%202.860816+(EURL%20ECOHYD)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed"
+                frameborder="0"
                 scrolling="no"
-                marginHeight="0"
-                marginWidth="0"
-                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=03 rue Bisson 75020, Paris&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                marginheight="0"
+                marginwidth="0"
               ></iframe>
             </div>
           </div>
