@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
         />
         <meta
           name="keywords"
-          content="Eurl, Ecohyd, Eurl Ecohyd, Entreprise, Company, Algeria, Algérie, DZ, rayonnage, Tout Travaux De Rayonnage, Installation Réseau Incendie, Maintenance Des Sites Industriels, All Shelving Work, Fire Network Installation, Maintenance Of Industrial Sites, All Painting and Plastering Work, Tous Travaux de Peinture et Placoplatre"
+          content="Eurl, Ecohyd, Eurl Ecohyd, Entreprise, Company, Algeria, Algérie, Laghouat, DZ, rayonnage, Tout Travaux De Rayonnage, Installation Réseau Incendie, Maintenance Des Sites Industriels, All Shelving Work, Fire Network Installation, Maintenance Of Industrial Sites, All Painting and Plastering Work, Tous Travaux de Peinture et Placoplatre"
         />
         <meta name="robots" content="index,follow" />
         <link rel="canonical" href="https://www.eurl-ecohyd.com" />
